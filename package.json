@@ -1,23 +1,14 @@
 {
   "name": "don-piero",
   "version": "1.0.0",
-  "description": "",
+  "description": "API di Don Piero",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/donpierone/don-piero.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/donpierone/don-piero/issues"
-  },
-  "homepage": "https://github.com/donpierone/don-piero#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5"
   }
 }
