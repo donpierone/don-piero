@@ -41,3 +41,6 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`✅ Server attivo su http://localhost:${port}`);
 });
+app.get("/", (req, res) => {
+    res.send("Benvenuto su Don Piero! Il server è attivo.");
+});
